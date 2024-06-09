@@ -26,7 +26,7 @@ async def start(message: Message) -> None:
 
 
 async def main() -> None:
-    bot = Bot("7229894763:AAEM2VP4WQhQwKfCoblqygmKngbXvc6tcFc")(parse_mode=ParseMode.HTML)
+    bot = Bot(...)(parse_mode=ParseMode.HTML)
 
 
     dp = Dispatcher()
